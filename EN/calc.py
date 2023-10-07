@@ -1,50 +1,27 @@
 #!/usr/bin/python3
-"Copyright© 2023 LinuxUsersLinuxMint"
-"Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır."
-"Python Calcutator All Rights Reserved under the GPL(General Public License)."
-"Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint"
-"A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint"
+# Copyright© 2023 LinuxUsersLinuxMint
+# Python Calcutator Lite Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+# Python Calcutator Lite All Rights Reserved under the GPL(General Public License).
+# Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
+# A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 
-command=input('calc> ')
-about="Python Calcutator CLI(Command Line Interface / Komut Satırı Arayüzü) LICENCE=GPL2"
+cmd=str(input('calc> '))
 
-if command=="calc":
-    print("calc> Transactions You Can Enter: ")
-    print("collect\nExtraction\n\Impact\nDivide\nPercentage\nabout")
-    number1=input('{0} Enter The 1st number: '. format(command))
-    number2=input('{0} Enter The 2st number: '. format(command))
-    process=input('{0} Enter the Transaction You Want to Perform: '. format(command))
-    addition=float(number1)+float(number2)
-    subraction=float(number1)-float(number2)
-    multiplication=float(number1)*float(number2)
-    division=float(number1)/float(number2)
-    Percentage=float(number1)%float(number2)
-    if process=="collect": 
-       print("{0} + {1} = {2}". format(number1,number2,addition))  
-    elif process=="Extraction":
-       print("{0} - {1} = {2}". format(number1,number2,subraction))
-    elif process=="Impact":
-       print("{0} * {1} = {2}". format(number1,number2,multiplication))
-    elif process=="Divide":
-       print("{0} / {1} = {2}". format(number1,number2,division))
-    elif process=="Percentage":
-       print("{0} % {1} = {2}". format(number1,number2,Percentage))
-    else:
-       print("Invalid Proccess!")
-if command=="about":
-   print(about)
-elif command=="exit":
-   exit()
-elif command=="help":
-   print("Python calc Help")
-   print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence")
-elif command=="git-address":
-   print("Github Link: https://github.com/LinuxUsersLinuxMint")
-elif command=="web-site":
-   print("linuxuserslinuxmint.github.io")
-elif command=="ver":
-   print("Version: 0.2 (Last Updated September 17 , 2023 , 14:43)")
-elif command=="licence":
-   print("This Software is protected under the GPL2 license")
-else:
-   print("Invalid Command!")
+if cmd=="calc":
+   print("calc> Transactions you can enter: ")
+   print("Addition\nSubraction\n\Multiplication\nDivision\nPercentage\n 1,2,3,4")
+   n1=float(input('{0} Enter The 1st Number: '. format(cmd)))
+   n2=float(input('{0} Enter The 2st Number: '. format(cmd)))
+   process=input('{0} Enter the Transaction You Want to Perform: '. format(cmd))
+   if process=="1": 
+      print("{0} + {1} = {2}". format(n1,n2,n1+n2))  
+   elif process=="2":
+       print("{0} - {1} = {2}". format(n1,n2,n1-n2))
+   elif process=="3":
+       print("{0} * {1} = {2}". format(n1,n2,n1*n2))
+   elif process=="4":
+       print("{0} / {1} = {2}". format(n1,n2,n1/n2))
+   elif process=="5":
+       print("{0} % {1} = {2}". format(n1,n2,n1%n2))
+   else:
+       print("Invalid Process!")
