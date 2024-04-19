@@ -1,5 +1,4 @@
 #!/usr/bin/bash
 
-sudo cp INSTALL/EN/calc /usr/bin/
-
-# Changes will be made to the uninstall files for Linux.
+sudo cp EN/calc /usr/bin/
+sudo cp TR/calc_tr /usr/bin/

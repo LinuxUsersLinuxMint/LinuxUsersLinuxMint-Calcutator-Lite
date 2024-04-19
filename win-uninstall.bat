@@ -15,13 +15,13 @@ goto m
 :one
 echo Python-Calcutator-TR Uninstall.
 pause
-del C:\Users\%users%\calc
+del C:\Users\%users%\calc.exe
 pause
 exit
 goto m
 :two
 echo Python-Calcutator-EN Uninstall.
 pause
-del C:\Users\%users%\calc
+del C:\Users\%users%\calc.exe
 pause
 exit
