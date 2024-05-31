@@ -5,22 +5,25 @@ Python-Calcutator-Lite All Rights Reserved under the GPL(General Public License)
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/Python-Calcutator-Lite
 A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/Python-Calcutator-Lite"""
 
+from Basic_Maths import *
+
 cmd=str("calc> ")
+error_dialog = "Geçersiz İşlem!"
 
 print("calc> Girebileceğiniz işlemler: ")
-print("top\ncık\n\carp\nbol\nyuzde\n 1,2,3,4")
+print("toplama\nçıkarma\nçarpma\nbölme\nyüzde alma\n1,2,3,4,5")
 s1=float(input('{0} 1. sayiyi giriniz: '. format(cmd)))
 s2=float(input('{0} 2. sayiyi giriniz: '. format(cmd)))
 islem=input('{0} Gerçekleştirmek İstediğiniz İşlemi Giriniz: '. format(cmd))
 if islem=="1": 
-    print("{0} + {1} = {2}". format(s1,s2,s1+s2))  
+    addition(s1,s2)
 elif islem=="2":
-    print("{0} - {1} = {2}". format(s1,s2,s1-s2))
+    Extraction(s1,s2)
 elif islem=="3":
-    print("{0} * {1} = {2}". format(s1,s2,s1*s2))
+    Multiplication(s1,s2)
 elif islem=="4":
-    print("{0} / {1} = {2}". format(s1,s2,s1/s2))
+    Division(s1,s2,"","Bölme işleminde sayı 0 olamaz!")
 elif islem=="5":
-    print("{0} % {1} = {2}". format(s1,s2,s1%s2))
+    Percentage(s1,s2)
 else:
-    print("Geçersiz İşlem")
+    error_msg()
