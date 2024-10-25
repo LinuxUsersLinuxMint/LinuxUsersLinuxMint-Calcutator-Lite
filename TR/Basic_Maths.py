@@ -6,7 +6,7 @@ Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için
 A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/Basic_Maths"""
 
 from math import *
-from PyAppDevKit.LibFunc.pyappdevkit import *
+from pyappdevkit import *
 
 """ TR (Turkish / Türkçe):
 NOT: InputN1N2() sadece 2 sayının istendiği durumlarda kullanılabilir.
