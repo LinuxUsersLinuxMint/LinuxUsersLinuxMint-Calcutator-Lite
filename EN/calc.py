@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Copyright© 2023-2024 LinuxUsersLinuxMint
+""" Copyright© 2023-2025 LinuxUsersLinuxMint
 LinuxUsersLinuxMint Calcutator-Lite Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 LinuxUsersLinuxMint Calcutator-Lite All Rights Reserved under the GPL(General Public License).
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator-Lite
