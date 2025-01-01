@@ -11,7 +11,7 @@ cmd=str("calc> ")
 error_dialog = "Geçersiz İşlem!"
 
 print("calc> Girebileceğiniz işlemler: ")
-print("toplama\nçıkarma\nçarpma\nbölme\nyüzde alma\n1,2,3,4,5")
+print("toplama\nçıkarma\nçarpma\nbölme\nmod alma\n1,2,3,4,5")
 s1=float(input('{0} 1. sayiyi giriniz: '. format(cmd)))
 s2=float(input('{0} 2. sayiyi giriniz: '. format(cmd)))
 islem=input('{0} Gerçekleştirmek İstediğiniz İşlemi Giriniz: '. format(cmd))
