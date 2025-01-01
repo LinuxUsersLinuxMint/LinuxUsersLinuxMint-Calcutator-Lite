@@ -16,7 +16,7 @@ n1=float(input('{0} Enter The 1st Number: '. format(cmd)))
 n2=float(input('{0} Enter The 2st Number: '. format(cmd)))
 process=input('{0} Enter the Transaction You Want to Perform: '. format(cmd))
 if process=="1": 
-    addition(n1,n2)  
+    Addition(n1,n2)  
 elif process=="2":
     Extraction(n1,n2)
 elif process=="3":
@@ -26,4 +26,4 @@ elif process=="4":
 elif process=="5":
     Percentage(n1,n2)
 else:
-    error_msg()
+    error_msg(error_dialog)

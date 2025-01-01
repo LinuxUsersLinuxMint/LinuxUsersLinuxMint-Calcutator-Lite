@@ -16,7 +16,7 @@ s1=float(input('{0} 1. sayiyi giriniz: '. format(cmd)))
 s2=float(input('{0} 2. sayiyi giriniz: '. format(cmd)))
 islem=input('{0} Gerçekleştirmek İstediğiniz İşlemi Giriniz: '. format(cmd))
 if islem=="1": 
-    addition(s1,s2)
+    Addition(s1,s2)
 elif islem=="2":
     Extraction(s1,s2)
 elif islem=="3":
@@ -26,4 +26,4 @@ elif islem=="4":
 elif islem=="5":
     Percentage(s1,s2)
 else:
-    error_msg()
+    error_msg(error_dialog)
