@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Copyright© 2023-2025 OpenSoftware-World
+""" Copyright© 2023-2026 OpenSoftware-World
 Basic_Maths Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 Basic_Maths All Rights Reserved under the GPL(General Public License).
 Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/OpenSoftware-World/Basic_Maths

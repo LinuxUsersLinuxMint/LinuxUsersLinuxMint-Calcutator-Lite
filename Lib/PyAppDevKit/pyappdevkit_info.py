@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Copyright© 2023-2025 OpenSoftware-World
+""" Copyright© 2023-2026 OpenSoftware-World
 PyAppDevKit Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 PyAppDevKit All Rights Reserved under the GPL(General Public License).
 Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/OpenSoftware-World/PyAppDevKit
@@ -10,7 +10,7 @@ from Lib.PyAppDevKit.pyappdevkit import *
 PYTHON_LIB_NAME="PyAppDevKit"
 PYTHON_LIB_LICENCE="GPL2"
 PYTHON_LIB_IMPLEMENTED_CONTRACTS="OpenSoftware-World Privacy and Security Agreement , OpenSoftware-World Web (Site) Agreement"
-PYTHON_LIB_IMPLEMENTED_CONTRACTS_WEB_SITE="https://opensoftware-world.github.io/Contracts/privacyandsecutryagreement/privacyandsecutryagreement.html , https://opensoftware-world.github.io/Contracts/linuxuserslinuxmintwebsiteagreement/linuxuserslinuxmintwebsiteagreement.html"
+PYTHON_LIB_IMPLEMENTED_CONTRACTS_WEB_SITE="https://opensoftware-world.github.io/Contracts/privacyandsecutryagreement/privacyandsecutryagreement.html , https://opensoftware-world.github.io/Contracts/opensoftwareworldwebsiteagreement/opensoftwareworldwebsiteagreement.html"
 PYTHON_LIB_VER="2.1.1"
 PYTHON_LIB_SUPPORT_PLATFORM="Windows/Linux/macOS/otherOS"
 PYTHON_LIB_RELEASE_DATE="6/9/2024, Time: 17:54"
